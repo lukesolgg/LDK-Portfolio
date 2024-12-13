@@ -11,14 +11,14 @@ export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Admin Officer",
-    company: "Department for Work & Pension - UK",
+    company: "Department for Work & Pensions - UK",
     description: `Currently working as an Admin Officer for the Department for Work and Pensions, managing administrative tasks and ensuring efficient operations. This role has provided stability and the opportunity to raise capital. Actively seeking to return to software development, with a focus on Solana and blockchain technologies`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
     year: "2022 - 2023",
     role: "Travelled & Attended Hacker House Events",
-    company: "Adobe",
+    company: "Solo",
     description: `Took a year out from 2022 to 2023 to explore and participate in Solana Hacker House events in Barcelona and London, gaining exposure to blockchain technology and Web3 development. Networked with developers and industry professionals while deepening knowledge of decentralized applications. Concluded work with Gaian Guardians during this period, marking a transition to new opportunities.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
@@ -61,10 +61,10 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Guardian Marketplace",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A platform for designed to provide legal services through cryptocurrency payment, the idea was to match web3 individuals with lawyers/solicitors tailored to their needs, however the project never launched and was abandoned in 2022",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
