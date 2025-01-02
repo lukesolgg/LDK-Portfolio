@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/linkedin.png";
+import project2 from "../assets/projects/logotransparent.png";
+import project3 from "../assets/projects/ldklogo.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and Redux. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences preferably in the cryptography space.`;
+export const HERO_CONTENT = `Hi, I'm Luke Knight, a full stack developer based in Belfast, Northern Ireland. I specialize in building web applications with React, Node.js, and other modern technologies. Welcome to my portfolio!`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 4 years of experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and Redux. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active with the gym and boxing, exploring new technologies like Asymmetric Cryptography, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a full-stack developer with a passion for creating dynamic and visually appealing web applications. I have experience working with a variety of technologies, including React, Node.js, and MongoDB. I am always eager to learn new skills and take on new challenges. In my free time, I enjoy exploring the outdoors, playing video games, and experimenting with new recipes in the kitchen.`;
 
 export const EXPERIENCES = [
   {
@@ -13,14 +13,14 @@ export const EXPERIENCES = [
     role: "Admin Officer",
     company: "Department for Work & Pensions - UK",
     description: `Currently working as an Admin Officer for the Department for Work and Pensions, managing administrative tasks and ensuring efficient operations. This role has provided stability and the opportunity to raise capital. Actively seeking to return to software development, with a focus on Solana and blockchain technologies`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["React", "NextJS", "NodeJS", "Redux"],
   },
   {
     year: "2022 - 2023",
     role: "Travelled & Attended Hacker House Events",
     company: "Solo",
     description: `Took a year out from 2022 to 2023 to explore and participate in Solana Hacker House events in Barcelona and London, gaining exposure to blockchain technology and Web3 development. Networked with developers and industry professionals while deepening knowledge of decentralized applications. Concluded work with Gaian Guardians during this period, marking a transition to new opportunities.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["React", "TailwindCSS", "Vue.js", "Rust"],
   },
   {
     year: "2021 - 2022",
@@ -40,25 +40,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Linked In Clone",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A clone of the LinkedIn platform, featuring user authentication, profile creation, and post sharing functionality, built with React, Node.js, and Redux.",
+    technologies: ["Firebase", "React", "Node.js", "Redux"],
+    link: "https://linkedin-clone-e867e.firebaseapp.com/",
   },
   {
-    title: "Task Management App",
+    title: "LDK Autocare Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A modern auto detailing website built with a responsive design for desktop & mobile. Features include an interactive service booking system & detailed service catalog. Implemented EmailJS for booking services, and custom CSS animations for enhanced user experience via tailwindcss.",
+    technologies: ["React", "NextJS", "TailwindCSS", "Yarn"],
+    link: "https://ldk-autocare-web.vercel.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "My Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Node.js", "TailwindCSS", "Vite"],
+    link: "https://react-portfolio-2024-eight.vercel.app/",
   },
   {
     title: "Guardian Marketplace",
@@ -66,6 +69,7 @@ export const PROJECTS = [
     description:
       "A platform for designed to provide legal services through cryptocurrency payment, the idea was to match web3 individuals with lawyers/solicitors tailored to their needs, however the project never launched and was abandoned in 2022",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: "#",
   },
 ];
 
