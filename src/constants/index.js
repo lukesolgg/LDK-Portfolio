@@ -68,7 +68,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A futuristic AI-themed landing page showcasing rapid development with Next.js and Tailwind CSS, featuring responsive design, dynamic interaction, and social media integration",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["Typescript", "TailwindCSS", "NextJS", "Vercel"],
     link: "https://upcoming-project-ui.vercel.app/",
   },
 ];
