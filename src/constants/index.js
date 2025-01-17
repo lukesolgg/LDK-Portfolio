@@ -64,12 +64,12 @@ export const PROJECTS = [
     link: "https://react-portfolio-2024-eight.vercel.app/",
   },
   {
-    title: "Guardian Marketplace",
+    title: "Web3 Landing Page UI",
     image: project4,
     description:
-      "A platform for designed to provide legal services through cryptocurrency payment, the idea was to match web3 individuals with lawyers/solicitors tailored to their needs, however the project never launched and was abandoned in 2022",
+      "A futuristic AI-themed landing page showcasing rapid development with Next.js and Tailwind CSS, featuring responsive design, dynamic interaction, and social media integration",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "#",
+    link: "https://upcoming-project-ui.vercel.app/",
   },
 ];
 
