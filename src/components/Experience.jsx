@@ -5,7 +5,7 @@ import 'simplebar/dist/simplebar.min.css';
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900/20 py-20">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -44,16 +44,16 @@ const Experience = () => {
                   className="group w-full max-w-xl lg:w-3/4 text-center cursor-pointer"
                   style={{ transition: 'all 0.3s ease' }}
                 >
-                  <div className="p-4 rounded-lg bg-transparent group-hover:bg-neutral-800/20">
+                  <div className="p-4 rounded-lg bg-transparent group-hover:bg-neutral-800/10">
                     <h6 className="mb-2 font-semibold text-center">
-                      {experience.role} - <span className="text-sm text-purple-100">{experience.company}</span>
+                      {experience.role} - <span className="text-sm text-neutral-800">{experience.company}</span>
                     </h6>
                     <p className="mb-4 text-neutral-400 text-center">{experience.description}</p>
                     <div className="flex flex-wrap justify-center">
                       {experience.technologies.map((tech, techIndex) => (
                         <span
                           key={techIndex}
-                          className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-800 group-hover:bg-blue-900 group-hover:text-purple-200"
+                          className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-semibold mr-2 mt-2 px-2.5 py-0.5 rounded"
                         >
                           {tech}
                         </span>

@@ -4,7 +4,7 @@ import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <section className="bg-white dark:bg-black py-20">
+    <section className="bg-white dark:bg-black py-20 border-b border-neutral-900/20">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
