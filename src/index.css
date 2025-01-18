@@ -7,3 +7,16 @@
 :root { 
   font-family: "Inter", sans-serif;
 }
+
+.custom-scrollbar .simplebar-scrollbar::before {
+  background: #888;
+  border-radius: 10px;
+}
+
+.custom-scrollbar .simplebar-track {
+  background: transparent;
+}
+
+.custom-scrollbar .simplebar-scrollbar::before:hover {
+  background: #555;
+}
