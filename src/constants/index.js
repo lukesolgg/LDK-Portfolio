@@ -1,6 +1,6 @@
 import project1 from "../assets/linkedin.png";
 import project2 from "../assets/projects/project111.png";
-import project3 from "../assets/projects/ldklogo.png";
+import project3 from "../assets/portfolioproject.png";
 import project4 from "../assets/projects/project222.png";
 import project5 from "../assets/projects/project555.png";
 

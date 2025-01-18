@@ -6,7 +6,7 @@ import { FaSun, FaMoon } from "react-icons/fa"; // Importing sun and moon icons
 
 const Navbar = ({ toggleTheme, isDarkMode }) => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-10 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <h1 className="mx-2 w-10 text-5xl text-black dark:text-white">LK</h1>
       </div>

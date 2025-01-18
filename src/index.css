@@ -6,6 +6,24 @@
 
 :root { 
   font-family: "Inter", sans-serif;
+  --cursor-x: 50vw;
+  --cursor-y: 50vh;
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh; /* Assuming viewport height will make it take up 80% of the screen height when centered */
+  height: 100vh;
+  background: radial-gradient(circle, rgba(0, 191, 255, 0.1) 0%, transparent 70%); /* Brighter blue with less opacity */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(calc(var(--cursor-x) - 40vh), calc(var(--cursor-y) - 40vh)); /* Adjusted for new size */
+  transition: transform 0.3s ease-out;
+  z-index: 9999;
+  mix-blend-mode: normal; /* Keep it normal for visibility */
+  opacity: 1; /* Full opacity for the gradient */
 }
 
 .custom-scrollbar .simplebar-scrollbar::before {
