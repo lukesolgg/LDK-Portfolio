@@ -10,10 +10,18 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-20 text-center text-4xl"
+        className="my-4 text-center text-4xl"
       >
         Experience
       </motion.h2>
+      <motion.p 
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: 50 }}
+        transition={{ duration: 1 }}
+        className="text-center text-neutral-400 mb-4"
+      >
+        Scroll Down
+      </motion.p>
       <div className="max-w-4xl mx-auto">
         <SimpleBar style={{ maxHeight: 400 }} className="custom-scrollbar">
           <div className="flex flex-col items-center">
@@ -36,7 +44,7 @@ const Experience = () => {
                   className="group w-full max-w-xl lg:w-3/4 text-center cursor-pointer"
                   style={{ transition: 'all 0.3s ease' }}
                 >
-                  <div className="p-4 rounded-lg bg-transparent group-hover:bg-neutral-800/60">
+                  <div className="p-4 rounded-lg bg-transparent group-hover:bg-neutral-800/20">
                     <h6 className="mb-2 font-semibold text-center">
                       {experience.role} - <span className="text-sm text-purple-100">{experience.company}</span>
                     </h6>
@@ -45,7 +53,7 @@ const Experience = () => {
                       {experience.technologies.map((tech, techIndex) => (
                         <span
                           key={techIndex}
-                          className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800 group-hover:bg-purple-900 group-hover:text-purple-200"
+                          className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-800 group-hover:bg-blue-900 group-hover:text-purple-200"
                         >
                           {tech}
                         </span>

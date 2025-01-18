@@ -1,12 +1,7 @@
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiTypescript, SiCss3, SiRedux } from "react-icons/si";
 import { motion } from "framer-motion";
 
-// Corrected the typo from 'intial' to 'initial'
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
@@ -43,7 +38,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400"/>
+          <SiJavascript className="text-7xl text-yellow-400"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(3)}
@@ -51,7 +46,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl"/>
+          <SiTypescript className="text-7xl text-blue-500"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(2)}
@@ -59,7 +54,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500"/>
+          <SiCss3 className="text-7xl text-blue-600"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(6)}
@@ -67,7 +62,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700"/>
+          <FaNodeJs className="text-7xl text-green-500"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(4)}
@@ -75,7 +70,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNodeJs className="text-7xl text-green-500"/>
+          <FaReact className="text-7xl text-cyan-400"/>
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -83,7 +78,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700"/>
+          <SiRedux className="text-7xl text-purple-600"/>
         </motion.div>
       </motion.div>
     </div>

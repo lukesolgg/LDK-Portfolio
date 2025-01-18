@@ -10,7 +10,7 @@ const Navbar = ({ toggleTheme, isDarkMode }) => {
       <div className="flex flex-shrink-0 items-center">
         <h1 className="mx-2 w-10 text-5xl text-black dark:text-white">LK</h1>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl text-black dark:text-white">
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl text-black dark:text-white mr-0">
         <FaLinkedin />
         <FaGithub />
         <FaInstagram />

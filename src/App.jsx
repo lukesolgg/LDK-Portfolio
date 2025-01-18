@@ -7,9 +7,10 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
+import Footer from './components/Footer';
 
 const App = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true); // Changed to true for default dark mode
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
@@ -42,6 +43,7 @@ const App = () => {
         <Experience />
         <Technologies />
         <Contact />
+        <Footer />
       </div>
       {/* Cursor effect */}
       <div className="cursor"></div>
