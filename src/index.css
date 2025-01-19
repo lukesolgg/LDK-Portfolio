@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root { 
   font-family: "Inter", sans-serif;
   --cursor-x: 50vw;
@@ -26,6 +28,10 @@
   opacity: 1; /* Full opacity for the gradient */
 }
 
+
+
+
+
 .custom-scrollbar .simplebar-scrollbar::before {
   background: #888;
   border-radius: 10px;
@@ -37,4 +43,17 @@
 
 .custom-scrollbar .simplebar-scrollbar::before:hover {
   background: #555;
+} 
+
+
+
+
+.experience-section {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll; /* Ensure scroll is visible */
+}
+
+.experience-item {
+  scroll-snap-align: start;
+  scroll-snap-stop: always; /* This ensures it always snaps without partial visibility */
 }

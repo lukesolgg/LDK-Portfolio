@@ -47,7 +47,7 @@ export const PROJECTS = [
       "A clone of the LinkedIn platform, featuring user authentication, profile creation, and post sharing functionality, built with React, Node.js, and Redux.",
     technologies: ["Firebase", "React", "Node.js", "Redux"],
     link: "https://linkedin-clone-e867e.firebaseapp.com/",
-    githublink: "https://github.com/yourusername/linkedin-clone"
+    githublink: "https://github.com/lukesolgg/linkedin-clone"
   },
   {
     title: "LDK Autocare Website",
@@ -56,7 +56,7 @@ export const PROJECTS = [
       "A modern auto detailing website built with a responsive design for desktop & mobile. Features include an interactive service booking system & detailed service catalog. Implemented EmailJS for booking services, and custom CSS animations for enhanced user experience via tailwindcss.",
     technologies: ["React", "NextJS", "TailwindCSS", "Yarn"],
     link: "https://ldk-autocare-web.vercel.app/",
-    githublink: "https://github.com/yourusername/linkedin-clone"
+    githublink: "https://github.com/lukesolgg/ldk-autocare-web"
   },
   {
     title: "My Portfolio Website",
@@ -64,8 +64,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Node.js", "TailwindCSS", "Vite"],
-    link: "https://react-portfolio-2024-eight.vercel.app/",
-    githublink: "https://github.com/yourusername/linkedin-clone"
+    link: "https://ldk-portfolio-2025.vercel.app/",
+    githublink: "https://github.com/lukesolgg/LDK-Portfolio"
   },
   {
     title: "Web3 Landing Page UI",
@@ -74,7 +74,7 @@ export const PROJECTS = [
       "A futuristic AI-themed landing page showcasing rapid development with Next.js and Tailwind CSS, featuring responsive design, dynamic interaction, and social media integration",
     technologies: ["Typescript", "TailwindCSS", "NextJS", "Vercel"],
     link: "https://upcoming-project-ui.vercel.app/",
-    githublink: "https://github.com/yourusername/linkedin-clone"
+    githublink: "https://github.com/lukesolgg/upcoming-project-ui"
   },
   {
     title: "Solana Wallet Tracker Mobile App",
@@ -82,17 +82,17 @@ export const PROJECTS = [
     description:
       "A mobile application designed to track and manage Solana blockchain wallets. Features real-time balance updates, transaction history, and token management. Built with React Native for cross-platform compatibility, leveraging the Solana Web3.js library for blockchain interactions. Includes push notifications for transaction alerts and a user-friendly interface for ease of use.",
     technologies: ["React Native", "Solana Web3.js", "Expo", "Redux"],
-    link: "https://your-app-link.com", // Replace with the actual link
-    githublink: "https://github.com/yourusername/solana-wallet-tracker", // Replace with the actual GitHub link
+    link: "https://solana-app-ldk.vercel.app/", 
+    githublink: "https://github.com/lukesolgg/Wallet-Tracker-2024", 
   },
   {
-    title: "Solana Balance Tracker",
-    image: project5, // Replace with the actual image import for this project
+    title: "Weather Tracking App",
+    image: project5, 
     description:
       "A straightforward web application designed to check the balance of any Solana wallet address. Users can input a wallet address to instantly view the current SOL balance along with any associated token balances. This project focuses on simplicity and speed, providing a clean UI with minimalistic design elements. Utilizes the Solana Web3.js library to interact with the Solana blockchain and fetch wallet data.",
     technologies: ["React", "Solana Web3.js", "TailwindCSS"],
-    link: "https://your-solana-balance-tracker-link.com", // Replace with the actual link
-    githublink: "https://github.com/yourusername/solana-balance-tracker" // Replace with the actual GitHub link
+    link: "https://your-solana-balance-tracker-link.com", 
+    githublink: "https://github.com/yourusername/solana-balance-tracker" 
   },
 ];
 
