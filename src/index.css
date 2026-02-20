@@ -4,56 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-:root { 
+:root {
   font-family: "Inter", sans-serif;
   --cursor-x: 50vw;
   --cursor-y: 50vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .cursor {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vh; /* Assuming viewport height will make it take up 80% of the screen height when centered */
-  height: 100vh;
-  background: radial-gradient(circle, rgba(0, 191, 255, 0.1) 0%, transparent 70%); /* Brighter blue with less opacity */
+  width: 80vh;
+  height: 80vh;
+  background: radial-gradient(circle, rgba(0, 191, 255, 0.06) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
-  transform: translate(calc(var(--cursor-x) - 40vh), calc(var(--cursor-y) - 40vh)); /* Adjusted for new size */
+  transform: translate(calc(var(--cursor-x) - 40vh), calc(var(--cursor-y) - 40vh));
   transition: transform 0.3s ease-out;
   z-index: 9999;
-  mix-blend-mode: normal; /* Keep it normal for visibility */
-  opacity: 1; /* Full opacity for the gradient */
-}
-
-
-
-
-
-.custom-scrollbar .simplebar-scrollbar::before {
-  background: #888;
-  border-radius: 10px;
-}
-
-.custom-scrollbar .simplebar-track {
-  background: transparent;
-}
-
-.custom-scrollbar .simplebar-scrollbar::before:hover {
-  background: #555;
-} 
-
-
-
-
-.experience-section {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll; /* Ensure scroll is visible */
-}
-
-.experience-item {
-  scroll-snap-align: start;
-  scroll-snap-stop: always; /* This ensures it always snaps without partial visibility */
+  mix-blend-mode: normal;
+  opacity: 1;
 }

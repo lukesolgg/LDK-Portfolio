@@ -1,98 +1,96 @@
-import project1 from "../assets/linkedin.png";
-import project2 from "../assets/projects/project111.png";
-import project3 from "../assets/portfolioproject.png";
-import project4 from "../assets/projects/project222.png";
-import project5 from "../assets/projects/project555.png";
+import project1 from "../assets/projects/project111.png";
+import project2 from "../assets/projects/project222.png";
+import project3 from "../assets/projects/project555.png";
 
-export const HERO_CONTENT = `Hi, I'm Luke Knight, a full stack developer based in Belfast, Northern Ireland. I specialize in building web applications with React, Node.js, and other modern technologies. Welcome to my portfolio!`;
+export const HERO_CONTENT = `Full Stack Developer based in Belfast, Northern Ireland. I build modern web applications with React, Next.js, and TypeScript — from client business sites to blockchain-powered tools.`;
 
-export const ABOUT_TEXT = `I am a full-stack developer with a passion for creating dynamic and visually appealing web applications. I have experience working with a variety of technologies, including React, Node.js, and MongoDB. I am always eager to learn new skills and take on new challenges. In my free time, I enjoy exploring the outdoors, playing video games, and experimenting with new recipes in the kitchen.`;
+export const ABOUT_TEXT = `I'm a full-stack developer who thrives on turning ideas into polished, performant web applications. My toolkit spans the React/Next.js ecosystem, TypeScript, Node.js, and Tailwind CSS, with a strong interest in Solana blockchain development. I've built everything from client business websites and finance trackers to decentralised swap apps and mobile wallet trackers. When I'm not coding, you'll find me exploring the outdoors, gaming, or experimenting with new recipes.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Admin Officer",
-    company: "Department for Work & Pensions - UK",
-    description: `Currently working as an Admin Officer for the Department for Work and Pensions, managing administrative tasks and ensuring efficient operations. This role has provided stability and the opportunity to raise capital. Actively seeking to return to software development, with a focus on Solana and blockchain technologies`,
-    technologies: ["React", "NextJS", "NodeJS", "Redux"],
+    company: "Department for Work & Pensions",
+    description: `Working as an Admin Officer while actively building full-stack projects and sharpening my development skills. Focused on React, Next.js, TypeScript, and Solana blockchain technologies. Actively seeking a return to a full-time software development role.`,
+    technologies: ["React", "Next.js", "TypeScript", "Solana"],
   },
   {
     year: "2022 - 2023",
     role: "Travelled & Attended Hacker House Events",
     company: "Solo",
-    description: `Took a year out from 2022 to 2023 to explore and participate in Solana Hacker House events in Barcelona and London, gaining exposure to blockchain technology and Web3 development. Networked with developers and industry professionals while deepening knowledge of decentralized applications. Concluded work with Gaian Guardians during this period, marking a transition to new opportunities.`,
-    technologies: ["React", "TailwindCSS", "Vue.js", "Rust"],
+    description: `Participated in Solana Hacker House events in Barcelona and London, deepening knowledge of blockchain technology and Web3 development. Networked with developers and industry professionals while building decentralised applications.`,
+    technologies: ["React", "Tailwind CSS", "Rust", "Solana"],
   },
   {
     year: "2021 - 2022",
     role: "Junior Developer",
     company: "Gaian Guardians",
-    description: `Worked as a Junior Developer at Gaian Guardians, developing and enhancing web applications using TypeScript and Tailwind CSS. Collaborated with the team to create responsive and visually appealing user interfaces. Contributed to codebase optimization, debugging, and feature implementation in a fast-paced environment.`,
-    technologies: ["Typescript", "TailwindCSS", "Node.js", "React.js"],
+    description: `Developed and enhanced web applications using TypeScript and Tailwind CSS. Collaborated with the team to create responsive user interfaces and contributed to codebase optimisation, debugging, and feature implementation.`,
+    technologies: ["TypeScript", "Tailwind CSS", "Node.js", "React"],
   },
   {
     year: "2020 - 2021",
     role: "Full Stack Developer Course",
     company: "CareerSwitchIT",
-    description: `Completed an intensive full-stack developer course with CareerSwitchIT, mastering HTML, CSS, and JavaScript for front-end development. Built dynamic web applications using React.js and Node.js while managing databases with MongoDB. Gained experience in agile workflows and collaborating on coding projects to solve real-world problems.`,
-    technologies: ["HTML", "CSS", "Javascript", "React.js"],
+    description: `Completed an intensive full-stack developer course, mastering HTML, CSS, JavaScript, React.js, and Node.js. Built dynamic web applications and gained experience in agile workflows and collaborative coding projects.`,
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Linked In Clone",
+    title: "Soms Pot - Thai Takeaway",
     image: project1,
     description:
-      "A clone of the LinkedIn platform, featuring user authentication, profile creation, and post sharing functionality, built with React, Node.js, and Redux.",
-    technologies: ["Firebase", "React", "Node.js", "Redux"],
-    link: "https://linkedin-clone-e867e.firebaseapp.com/",
-    githublink: "https://github.com/lukesolgg/linkedin-clone"
+      "A full business website built for a Thai takeaway restaurant. Features a menu, online ordering flow, and responsive design across all devices.",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Vercel"],
+    link: "https://soms-pot-website.vercel.app/",
+    githublink: "https://github.com/lukesolgg/soms-pot-website",
   },
   {
-    title: "LDK Autocare Website",
+    title: "Personal Finance Manager",
     image: project2,
     description:
-      "A modern auto detailing website built with a responsive design for desktop & mobile. Features include an interactive service booking system & detailed service catalog. Implemented EmailJS for booking services, and custom CSS animations for enhanced user experience via tailwindcss.",
-    technologies: ["React", "NextJS", "TailwindCSS", "Yarn"],
-    link: "https://ldk-autocare-web.vercel.app/",
-    githublink: "https://github.com/lukesolgg/ldk-autocare-web"
+      "A personal finance tracker built with React and Redux for state management. Track income, expenses, and budgets with an intuitive dashboard interface.",
+    technologies: ["React", "TypeScript", "Redux", "Tailwind CSS"],
+    link: "https://personal-finance-manager.vercel.app/",
+    githublink: "https://github.com/lukesolgg/Personal-Finance-Manager",
   },
   {
-    title: "My Portfolio Website",
+    title: "Solana Swap DApp",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Node.js", "TailwindCSS", "Vite"],
-    link: "https://ldk-portfolio-2025.vercel.app/",
-    githublink: "https://github.com/lukesolgg/LDK-Portfolio"
+      "A decentralised token swap application on the Solana blockchain. Enables users to swap SPL tokens with real-time price data and wallet integration.",
+    technologies: ["TypeScript", "Solana Web3.js", "React", "Next.js"],
+    link: "https://solana-swap-dapp.vercel.app/",
+    githublink: "https://github.com/lukesolgg/solana-swap-dapp",
   },
   {
-    title: "Web3 Landing Page UI",
-    image: project4,
+    title: "Ski Holiday Planner",
+    image: project1,
     description:
-      "A futuristic AI-themed landing page showcasing rapid development with Next.js and Tailwind CSS, featuring responsive design, dynamic interaction, and social media integration",
-    technologies: ["Typescript", "TailwindCSS", "NextJS", "Vercel"],
-    link: "https://upcoming-project-ui.vercel.app/",
-    githublink: "https://github.com/lukesolgg/upcoming-project-ui"
+      "A ski holiday planning application that helps users find and organise ski trips. Features resort browsing, trip planning tools, and a clean modern UI.",
+    technologies: ["JavaScript", "React", "Tailwind CSS", "Vite"],
+    link: "https://ski-holiday-planner.vercel.app/",
+    githublink: "https://github.com/lukesolgg/ski-holiday-planner",
   },
   {
-    title: "Solana Wallet Tracker Mobile App",
-    image: project5,
+    title: "Career Planner AI",
+    image: project2,
     description:
-      "A mobile application designed to track and manage Solana blockchain wallets. Features real-time balance updates, transaction history, and token management. Built with React Native for cross-platform compatibility, leveraging the Solana Web3.js library for blockchain interactions. Includes push notifications for transaction alerts and a user-friendly interface for ease of use.",
-    technologies: ["React Native", "Solana Web3.js", "Expo", "Redux"],
-    link: "https://solana-app-ldk.vercel.app/", 
-    githublink: "https://github.com/lukesolgg/Wallet-Tracker-2024", 
+      "An AI-powered career planning tool that helps users map out their career paths. Uses AI to provide personalised career recommendations and goal tracking.",
+    technologies: ["TypeScript", "Next.js", "AI/ML", "Tailwind CSS"],
+    link: "https://career-planner-ai.vercel.app/",
+    githublink: "https://github.com/lukesolgg/Career-Planner-AI",
   },
   {
-    title: "Weather Tracking App",
-    image: project5, 
+    title: "Solana Mobile Wallet Tracker",
+    image: project3,
     description:
-      "A straightforward web application designed to check the balance of any Solana wallet address. Users can input a wallet address to instantly view the current SOL balance along with any associated token balances. This project focuses on simplicity and speed, providing a clean UI with minimalistic design elements. Utilizes the Solana Web3.js library to interact with the Solana blockchain and fetch wallet data.",
-    technologies: ["React", "Solana Web3.js", "TailwindCSS"],
-    link: "https://your-solana-balance-tracker-link.com", 
-    githublink: "https://github.com/yourusername/solana-balance-tracker" 
+      "A mobile-first application for tracking Solana wallet balances, transaction history, and token holdings in real-time. Built with React Native and Expo.",
+    technologies: ["React Native", "TypeScript", "Solana Web3.js", "Expo"],
+    link: "https://solana-mobile-wallet-tracker.vercel.app/",
+    githublink: "https://github.com/lukesolgg/solana-mobile-wallet-tracker",
   },
 ];
 
